@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="content">
+        <section id="header">
+            <div class="profile_pic">
+                <img src="./profile.jpg" alt="">
+            </div>
+            <h1>HARJOVAN SINGH</h1>
+            <h4>Web DEVELOPER</h4>
+            <div class="links">
+                <a href="/Resume.pdf" class="btn" download>Resume</a>
+                <a href="#contact" class="btn">contact me</a>
+            </div>
+        </section>
+    
+    <section id="about">
+        <h2>about me</h2>
+        <div class="about_container">
+            <div class="para">
+                <p>I'm a Currently a Sudent in Seneca College persuing my Advanced Diploma in Computer Programming and Analysis (CPA).
+                    I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+                <span>Date: 1 Jun 2020</span>
+                </p>
+            </div>
+            <div class="basic">
+                <ul class="header_list">
+                    <li>Age:</li>
+                    <li>Email:</li>
+                    <li>Course:</li>
+                    <li>Section:</li>
+                    <li>Professor:</li>
+                </ul>
+                <ul class="info_list">
+                    <li>19</li>
+                    <li>hsingh900@myseneca.ca</li>
+                    <li>WEB 222</li>
+                    <li>NAA</li>
+                    <li>MARK MERITT</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-card">
+        <h2 class="sec_heading">education</h2>
+    <div class="card_row">
+        <div class="card">
+            <div class="card_front">
+                <div class="card_img img_1"></div>    
+                <span style="background-color: rgba(24, 117, 255,0.5);">2005 - 2021</span>
+                <ul>
+                    <li>Cambridge International School, Dasuya, Punjab</li>
+                </ul>
+            </div>
+            <div class="card_back" style="background-image: linear-gradient(to left bottom, #73daff,#00bbff);">
+            <span class="card_back_rate">Post/ Senior Secondary</span>
+            <span class="card_back_rate clg">CIS Dasuya</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_front">
+                <div class="card_img img_2"></div>    
+                <span style="background-color: rgba(253, 0, 84, 0.5);">May 2022</span>
+                <ul>
+                    <li>IPC</li>
+                    <li>COM</li>
+                    <li>ULI</li>
+                    <li>APS</li>
+                    <li>CPR</li>
+                </ul>
+            </div>
+            <div class="card_back" style="background-image: linear-gradient(to left bottom, #ff759e, #ff004c);">
+                <span class="card_back_rate">Bechlor</span>
+                <span class="card_back_rate clg">Seneca College</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_front">
+                <div class="card_img img_3"></div>    
+                <span style="background-color: rgba(30, 221, 23,0.5);">Sep 2022</span>
+                <ul>
+                    <li>OOP</li>
+                    <li>WEB</li>
+                    <li>DCF</li>
+                    <li>DBS</li>
+                    <li>SOC</li>
+                </ul>
+            </div>
+            <div class="card_back" style="background-image: linear-gradient(to left bottom, #73ffc0, #00ff8c);">
+                <span class="card_back_rate">Bechlor</span>
+                <span class="card_back_rate clg">Seneca College</span>
+            </div>
+        </div>
+    </div>
+</section>
+<scetion id="contact">
+    <h2 class="sec_heading">Get in touch!</h2>
+    <form action="http://httpbin.org/post" id="form">
+            <input type="text" class="form__input" id="name" placeholder="Name">
+            <input type="email" class="form__input" id="email" placeholder="E-mail">
+            <input type="text" class="form__input" id="streetAdd" placeholder="Street Add">
+            <input type="text" class="form__input" id="city" placeholder="City">
+            <input type="text" class="form__input" id="province" placeholder="Province">
+            <input type="text" class="form__input" id="postal" placeholder="Postal Code">
+        <div class="form__group radiobtns">
+            <div class="form__radio-container">
+                <input type="radio" class="form__radio-btn" id="joboffer" name="tour-size">
+                <label for="joboffer" class="form__radio-lbl">
+                   <span class="form__custom-radio"></span> Job Offer
+                </label>
+            </div>
+                <div class="form__radio-container">
+                    <input type="radio" class="form__radio-btn" id="school" name="tour-size">
+                    <label for="school" class="form__radio-lbl">
+                    <span class="form__custom-radio"></span> School
+                    </label>
+                </div>
+            <div class="form__radio-container">
+                    <input type="radio" class="form__radio-btn btn-other" id="other" name="tour-size">
+                    <label for="other" class="form__radio-lbl">
+                    <span class="form__custom-radio"></span>Other
+                    </label>
+                </div>
+            </div>
+            <textarea rows="5" cols="50" name="comment" form="form" class="txtbox form__input">
+                Enter text here...</textarea>
+            <button class="btn btn__clr" type="submit" style="margin:1rem;">Submit</button>
+        </div>
+    </form>
+</scetion>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
